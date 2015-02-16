@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+function factory(services) {
+  ${3}  
+}
+
+module.exports = exports = factory;
+exports.\$implements = '${1:name}';
+exports.\$inject = ['${2}'];
+]]></content>
+  <tabTrigger>iocmodule</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
